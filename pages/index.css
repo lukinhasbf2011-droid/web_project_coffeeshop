@@ -1,4 +1,12 @@
 
+.body {
+ margin: 0;
+}
+
+.page {
+    
+}
+
 .header {
     position: relative;
     min-height: 720px;
