@@ -182,13 +182,6 @@
     background-size: cover;
 }
 
-.reservation__form {
-    position: relative;
-    margin: 0 auto;
-    
-
-}
-
 .reservation__title {
     display: flex;
     justify-content: center;
@@ -202,12 +195,27 @@
     margin: 0;
 }
 
+.form {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 385px;
+    
+}
+
+.reservation__form {
+    
+    margin: 0 auto;
+
+}
+
+
 
 .form__fieldset {
-   display: flex;
-   flex-direction: column;
-   max-width: 385px;
-
+    border: none;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .form__label {
@@ -230,6 +238,8 @@
     height: 60px;
     margin-bottom: 32px;
     padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-top: 0;
 }
 
