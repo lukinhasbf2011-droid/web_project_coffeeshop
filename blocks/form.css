@@ -11,6 +11,8 @@
     border: none;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
     
 }
 
@@ -18,7 +20,6 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
     line-height: 20px;
     margin-bottom: 8px;
 
@@ -29,13 +30,12 @@
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
+    box-sizing: border-box;
     line-height: 30px;
     border-radius: 4px;
     height: 60px;
     margin-bottom: 32px;
-    padding-left: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 20px;
     margin-top: 0;
 }
 
@@ -44,7 +44,6 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
     line-height: 20px;
     border-radius: 4px;
     color: #ffffff;
@@ -65,9 +64,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
     line-height: 20px;
     border-radius: 2px;
-    padding-bottom: 120px;
 
 }

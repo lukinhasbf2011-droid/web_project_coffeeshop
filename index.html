@@ -12,9 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@1,400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="page">
@@ -40,7 +37,7 @@
                     <p class="header__paragraph">Horários:</p>
                     <p class="header__paragraph">Segunda a sexta (10:00 - 19:00):</p>
                     <p class="header__paragraph">Sábado a domingo (11:00 - 18:00):</p>
-                    <p class="header__paragraph"><span class="header__paragraph-triple">200 Success Avenue, a cidade de Triple Peaks</span></p>
+                    <p class="header__paragraph header__paragraph-triple">200 Success Avenue, a cidade de Triple Peaks</p>
                 </div>
         </header>
         <main class="content">
@@ -60,65 +57,57 @@
                 </div>
             </section>
             <section class="reservation" id="reservation">
-                
+
                 <h2 class="reservation__title">Reserve uma mesa</h2>
-                    
+
                 <form class="form reservation__form">
-                     
-                    <fieldset class="form__fieldset">
-                        <label class="form__label" for="nome">Nome</label>
-                        <input placeholder="nome" class="form__input" type="text">
-                    </fieldset>
-                    
-                    <fieldset class="form__fieldset">
-                        <label class="form__label" for="Número de convidados">Número de convidados</label>
-                        <input placeholder="1-8" class="form__input" type="number">
-                    </fieldset>    
-                    
-                    <fieldset class="form__fieldset">
-                        <label class="form__label" for="Data e hora">Data e hora</label>
-                        <input class="form__input" type="datetime-local">
-                    </fieldset>
-                    
-                    <fieldset class="form__fieldset">
-                        <label class="form__label" for="Seu e-mail">Seu e-mail</label>
-                        <input placeholder="email@email.com" class="form__input" type="email">
-                    </fieldset>
-                    
-                    <button class="form__button">Reserve uma mesa</button>
 
                     <fieldset class="form__fieldset">
-                        <label class="form__checkbox"><input class="form__checkbox" type="checkbox">Eu concordo com os termos de uso</label>
+                        <label class="form__label" for="nome">Nome</label>
+                        <input id="nome" placeholder="nome" class="form__input" type="text">
+
+                        <label class="form__label" for="numero-de-convidados">Número de convidados</label>
+                        <input id="numero-de-convidados" placeholder="1-8" class="form__input" type="number">
+
+                        <label class="form__label" for="data-e-hora">Data e hora</label>
+                        <input id="data-e-hora" class="form__input" type="datetime-local">
+
+                        <label class="form__label" for="seu-email">Seu e-mail</label>
+                        <input id="seu-email" placeholder="email@email.com" class="form__input" type="email">
                     </fieldset>
-                     
+                    <button class="form__button">Reserve uma mesa</button>
+
+                    <label class="form__checkbox"><input class="form__checkbox" type="checkbox">Eu concordo com os termos de uso</label>
+
+
                 </form>
 
             </section>
         </main>
         <footer class="footer" id="contacts">
 
-            <div class="footer__content">
-                <img class="footer__logo" src="../images/logo_coffeeshop_light.svg" alt="Logo coffeeshop light">
-                <img class="footer__circle" src="../images/favicon_circles.ico" alt="circles">
-                <div class="footer__social">
-                    <p class="footer__social-heading">Mídia social</p>
-                    <ul class="footer__list">
-                        <li class="footer__list-item">
-                            <a class="footer__social-link" href="#">
-                                <img class="footer__social-icon" src="../images/facebook_white.svg" alt="Facebook">Facebook
-                            </a>
-                        </li>
-                        <li class="footer__list-item">
-                            <a class="footer__social-link" href="#">
-                                <img class="footer__social-icon" src="../images/instagram_white.svg" alt="Instagram">Instagram
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="footer__copyright">© 2026 Lucas De Melo Feitosa</p>
-                </div>
-            </div>
+          <div class="footer__content">
+              <img class="footer__logo" src="../images/logo_coffeeshop_light.svg" alt="Logo coffeeshop light">
+              <div class="footer__circle"></div>
+              <div class="footer__social">
+                <p class="footer__social-heading">Mídia social</p>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                      <a class="footer__social-link" href="#">
+                        <img class="footer__social-icon" src="../images/facebook_white.svg" alt="Facebook">Facebook
+                      </a>
+                    </li>
+                    <li class="footer__list-item">
+                      <a class="footer__social-link" href="#">
+                        <img class="footer__social-icon" src="../images/instagram_white.svg" alt="Instagram">Instagram
+                      </a>
+                    </li>
+                </ul>
+              </div>
+          </div>
+          <p class="footer__copyright">© 2026 Lucas De Melo Feitosa</p>
         </footer>
     </div>
-    
+
 </body>
 </html>
