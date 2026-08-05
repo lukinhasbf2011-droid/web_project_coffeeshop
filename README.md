@@ -23,7 +23,7 @@ Durante o desenvolvimento, foram aplicados conceitos fundamentais de desenvolvim
 
 ## 🔮 Planos de melhoria
 
-- tornalo funcional
+- Tornalo funcional
 
 ## 👨‍💻 Autor
 
